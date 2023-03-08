@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+html {
+    margin: 0;
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+.backgroung img {
+    max-width: 100%;
+    height: calc(100% + 1px);
+    position: fixed;
+    background-size: contain;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px ;
+}
+.logo img {
+    width: 170px;
+    margin-top: 40px;
+}
+.info {
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+.info h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient( -150deg , #4dd1a0,#3296B2 ) , url(../images/tayar\ logo.png);
+    border-radius: 20px;
+    padding: 5px;
+    width: 300px;
+    margin: 15px auto;
+}
+.info p {
+    line-height: 1.7;
+}
+.clints {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+.clints h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient( -150deg , #4dd1a0,#3296B2 ) , url(../images/tayar\ logo.png);
+    border-radius: 20px;
+    padding: 5px;
+    width: 300px;
+    margin: 15px auto;
+    color: white;
+}
+.clints .box {
+    text-align: center;
+    color: white;
+    text-transform: capitalize;
+    padding-bottom: 20px;
+}
+.clints .box h3 {
+    width: 250px;
+    font-size: 20px;
+}
+.clints .box p {
+    text-transform: uppercase;
+    background: linear-gradient(90deg, #4dd1a0,#3296B2);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+    border-top : 5px solid;
+    border-image: linear-gradient(90deg,  #4BD19F, #3296B2) 1;
+    padding: 20px;
+    color: white;
+}
+.footer img {
+    width: 120px;
+}
+.footer p {
+    color: rgba(255, 255, 255, 0.627);
+}
